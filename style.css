@@ -1,17 +1,32 @@
+/* {
+    border: solid red;
+}
+*/
+
 header {
     background-color: #1f2937; 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15% ;
+    padding-right: 15%;
+    margin: 0%;
 }
 
 header a {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 header ul {
     list-style: none;
     padding: 0px;
-    font-size: 18px;
-    color: #e5e7eb;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 15px;
 }
 
 header .logo {
