@@ -8,8 +8,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 15% ;
-    padding-right: 15%;
+    padding-left: 13% ;
+    padding-right: 13%;
     margin: 0%;
 }
 
@@ -32,4 +32,50 @@ header ul li {
 header .logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.intro {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 13% 7% 13%;
+    margin: 0%;
+    flex-wrap: wrap;
+
+}
+
+.intro .lft {
+    flex: 1 1 50%;
+    max-width: 48%;
+    padding-right: 10px;
+}
+
+.intro .lft h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0%;
+}
+
+.intro .lft p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.intro .lft button {
+    background-color: #3882f6;
+    border-radius: 7px;
+    padding: 1% 2% 1% 2%;
+}
+
+.intro .rgt {
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-left: 20px;
+}
+
+.intro img {
+    flex: 0 0 50%;
+    max-width: 50%;
 }
