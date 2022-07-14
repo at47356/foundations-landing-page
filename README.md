@@ -11,3 +11,5 @@ For the section you’re working on, begin by getting all the content onto the p
 Many of the elements on this page are very similar to things you saw in our flexbox exercises… feel free to go back to those if you need a refresher.
 Do not worry about making your project look nice on a mobile device. We’ll learn that later.
 When you finish, don’t forget to push it up to GitHub!
+
+https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png
