@@ -23,6 +23,11 @@ header a {
     color: #e5e7eb;
 }
 
+header .logo {
+    text-transform: uppercase;
+    font-family: "Chivo";
+}
+
 header ul {
     list-style: none;
     padding: 0px;
@@ -100,7 +105,7 @@ header .logo {
     margin-right: 13%;
     justify-content: center;
     align-items: center;
-    gap: 10%;
+    gap: 7%;
     margin-bottom: 5%;
     
 }
@@ -115,10 +120,11 @@ header .logo {
 }
 
 .container .info img {
-    width: 100%;
+    width: 11em;
     height: auto;
     border: solid #3882f6 5px;
     border-radius: 10px;
+    flex-shrink: 1;
 }
 
 .container .info .text {
