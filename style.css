@@ -8,25 +8,21 @@ body {
 }
 
 header {
-    background-color: #1f2937; 
+    background-color: #e5e7eb;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 13% ;
-    padding-right: 13%;
+    padding-left: 10% ;
+    padding-right: 10%;
     margin: 0%;
 }
 
 header a {
     text-decoration: none;
     font-size: 18px;
-    color: #e5e7eb;
+    color: black;
 }
 
-header .logo {
-    text-transform: uppercase;
-    font-family: "Chivo";
-}
 
 header ul {
     list-style: none;
@@ -36,19 +32,27 @@ header ul {
 header ul li {
     display: inline-block;
     margin-left: 15px;
+    font-family: 'Raleway', sans-serif;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+header ul li:hover {
+    box-shadow: inset 150px 0 0 0 #e21a1a;
 }
 
 header .logo {
-    font-size: 24px;
-    color: #f9faf8;
+    font-size: 30px;
+    color: #2f2f2f;
+    text-transform: uppercase;
+    font-family: "Chivo";
 }
 
 .intro {
-    background-color: #1f2937;
+    background-color: #E5E6E8;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5% 13% 7% 13%;
+    padding: 5% 10% 7% 10%;
     margin: 0%;
     flex-wrap: wrap;
 
@@ -63,21 +67,37 @@ header .logo {
 .intro .lft h1 {
     font-size: 48px;
     font-weight: 800;
-    color: #f9faf8;
+    color: rgb(28, 28, 28);
     margin: 0%;
+    text-transform: uppercase;
+    font-family: "Chivo";
 }
 
 .intro .lft p {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #565656;
+    margin-bottom: 5%;
+    font-family: 'Raleway', sans-serif;
 }
 
-.intro .lft a {
-    background-color: #3882f6;
+.intro .lft button {
+    background-color: #e21a1a;
     border-radius: 7px;
-    padding: 2% 7% 2% 7%;
+    padding: 2% 6% 2% 6%;
+    flex-grow: 1;
+    transition: .2s ease-in-out 0s;
+    border: solid #e21a1a;
+}
+
+.intro .lft button:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
+.intro .lft button a {
+    color: #E5E6E8;
     text-decoration: none;
-    color: #e5e7eb;
+    font-size: 125%;
 }
 
 .intro .rgt {
@@ -97,12 +117,14 @@ header .logo {
     font-weight: 800;
     color: #1f2937;
     padding: 40px 0 40px 0;
+    text-transform: uppercase;
+    font-family: "Chivo";
 }
 
 .container {
     display: flex;
-    margin-left: 13% ;
-    margin-right: 13%;
+    margin-left: 10% ;
+    margin-right: 10%;
     justify-content: center;
     align-items: center;
     gap: 7%;
@@ -122,18 +144,16 @@ header .logo {
 .container .info img {
     width: 11em;
     height: auto;
-    border: solid #3882f6 5px;
-    border-radius: 10px;
     flex-shrink: 1;
 }
 
 .container .info .text {
     text-align: center;
-    color: #1f2937;
+    color: #ffffff;
 }
 
 .quote-part {
-    background-color: #e5e7eb;
+    background-color: #E5E6E8;
     display: flex;
     flex-direction: column;
     padding: 5% 20% 7% 20%;
@@ -145,37 +165,39 @@ header .logo {
     color: #1f2937;
     font-weight: 300;
     margin-bottom: 0%;
+    font-family: 'Raleway', sans-serif;
 }
 
 .quote-part h5 {
     margin: 0%;
     text-align: right;
+    font-family: "Chivo";
 }
 
 .action {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #3882f6;
-    margin: 6.5% 13% 6.5% 13%;
+    background-color:#E5E6E8;
+    margin: 6.5% 10% 6.5% 10%;
     border-radius: 7px;
-    padding: 2.5% 0 2.5% 0;
+    padding: 1.5% 0 1.5% 0;
 }
 
 .action p {
-color: #e5e7eb;
-padding: 0%;
-margin: 0%;
+    color:#2f2f2f;
+    font-family: 'Raleway', sans-serif;
 }
 
 .action a {
-    background-color: #3882f6;
+    background-color: #e21a1a;
     border: solid #e5e7eb;
     border-radius: 7px;
     padding: 0.75% 2.5% .75% 2.5%;
     text-decoration: none;
     color: #e5e7eb;
     font-weight: bold;
+    
 }
 
 footer {
@@ -183,4 +205,5 @@ footer {
     background-color: #1f2937;
     color: #f9faf8;
     padding: 1.75% 0 1.75% 0;
+    font-family: "Chivo";
 }
