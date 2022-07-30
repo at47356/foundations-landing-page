@@ -153,6 +153,12 @@ header .logo {
     width: 11em;
     height: auto;
     flex-shrink: 1;
+    transition: .2s ease-in-out 0s;
+}
+
+.container .info img:hover {
+    cursor: pointer;
+    transform: scale(1.25);
 }
 
 .container .info .text {
