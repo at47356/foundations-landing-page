@@ -1,5 +1,7 @@
 # foundations-landing-page
 
+Netlify Live Link: https://at47356-odin-foundations-landing-page.netlify.app/
+
 Assignment
 Don’t forget to commit early & often! You can reference the Commit Message lesson here!
 
