@@ -14,61 +14,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <header>
         <a class="logo" href="#"><strong>drivr.</strong></a>
-        <div class="header-links">
-            <ul>
-                <li><a href="#">Creations</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-    </header>
+        <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+        <nav class="header-links">
+          <ul>
+            <li><a href="#">Creations</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+        
+      
 
     <div class="intro">
-
-        <div class="lft">  
-            <h1><strong>Your perfect car. <br> The one that has it all. </strong></h1>
-            <p>What are your needs? Our team of experts will take your preferences into account, and customize an incomparable car chassis at the click of a button.</p>
-            <button><a href="#"><strong>Create!</strong></a></button>
+        <div class="intro-content">
+            <h1>Your perfect car.<br>The one that has it all.</h1>
+            <p>What are your needs? Our team of experts will take your preferences into account and customize an incomparable car chassis at the click of a button.</p>
+            <a href="#" class="create-btn">Create!</a>
         </div>
-
-        
         <img src="./images/tail-light.jpg" alt="">
-        
     </div>
 
     
     <div class="title">Inspiration Engineered.</div>
 
     <div class="container">
-
-        <div class="info">
-            <img src="./images/bmw-logo.jpg" alt="bmw logo">
-            <div class="text">this is some subtext under an illustration or image</div>
-        </div>
-
-        <div class="info">
-            <img src="./images/tesla-logo.png" alt="tesla logo">
-            <div class="text">this is some subtext under an illustration or image</div>
-        </div>
-
-        <div class="info">
-            <img src="./images/audi-logo.png" alt="audi logo">
-            <div class="text">this is some subtext under an illustration or image</div>
-        </div>
-
-        <div class="info">
-            <img src="./images/porsche-logo.png" alt="porsche logo">
-            <div class="text">this is some subtext under an illustration or image</div>
-        </div>
-
-        <div class="info">
-            <img src="./images/mercedes-logo.png" alt="mercedes-logo logo">
-            <div class="text">this is some subtext under an illustration or image</div>
-        </div>
-      
+        <img src="./images/bmw-logo.jpg" alt="bmw logo">
+        <img src="./images/tesla-logo.png" alt="tesla logo">
+        <img src="./images/audi-logo.png" alt="audi logo">
+        <img src="./images/porsche-logo.png" alt="porsche logo">
+        <img src="./images/mercedes-logo.png" alt="mercedes logo">
     </div>
 
     <div class="quote-part">
@@ -91,6 +68,16 @@
         Copyright © The Odin Project 2021
     </footer>
 
+    <script>
+       const menuToggle = document.querySelector('.menu-toggle');
+        const headerLinks = document.querySelector('.header-links');
+
+        menuToggle.addEventListener('click', function() {
+        headerLinks.classList.toggle('open');
+        });
+
+
+    </script>
     
 
 </body>
